@@ -66,7 +66,7 @@ const App = () => {
                 
                 <div className="button-box">
                     <h1>Most Excellent Calculator</h1>
-                    <input value={displayValue}/>
+                    <input value={displayValue ? displayValue:'0'}/>
                     {Button}
                 </div>
             </div>
