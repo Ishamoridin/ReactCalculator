@@ -48,7 +48,7 @@ const App = () => {
             case '÷':{return(editDisplayValue(displayValue+`/`))}
             case '(':{return(editDisplayValue(displayValue+`${button}`))}
             case ')':{return(editDisplayValue(displayValue+`${button}`))}
-            case 'C':{return(editDisplayValue(`0`))}
+            case 'C':{return(editDisplayValue(``))}
             case '=':{return(editDisplayValue(evaluate(`${displayValue}`)))}
             case '√':{return(editDisplayValue(sqrt(displayValue)))}
             default: {return (console.log(`invalid button pressed`))}            
