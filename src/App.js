@@ -4,7 +4,7 @@ import { evaluate, sqrt } from "mathjs";
 
 
 const App = () => {
-    const [displayValue, editDisplayValue] = useState(`0`)
+    const [displayValue, editDisplayValue] = useState(``)
     const buttonArray =['(','+','-','*','÷',')',1,2,3,4,5,6,7,8,9,'C',0,'=',`√`]
     const classHandler = (button) => {
         switch(button){
